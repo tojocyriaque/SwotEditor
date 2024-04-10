@@ -1,0 +1,145 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.swotDiv{
+    position: relative;
+    width: 70%;
+    height: 96vh;
+    border-radius: 10px;
+}
+
+.swotDiv div{
+    position: absolute;
+    border: 2px solid white;
+    width: 49.5%;
+    height: 49.5%;
+    border-radius: 10px;
+}
+
+.swotDiv div .list{
+    margin: 1%;
+    position: absolute;
+    width: 98%;
+    height: 85%;
+    overflow: scroll;
+    border: none;
+}
+
+.list::-webkit-scrollbar{
+    display: none;
+}
+
+.swotDiv div h6{
+    font-size: medium;
+    border: 0.5px solid #ffffff38;
+    margin: 1.7px;
+    border-radius: 2px;
+    color: white;
+}
+
+.swotDiv div button{
+    position: absolute;
+    top: 2.7%;
+    right: 2.7%;
+}
+
+.swotDiv h4{
+    padding: 15px;
+    margin: 0;
+    color: white;
+    border-radius: 10px;
+}
+
+#strengthLabel{
+    background-color: #284d85;
+}
+
+#weaknessLabel{
+    background-color: #a12222dc;
+}
+
+#oppLabel{
+    background-color: #0fa81c;
+}
+
+#threatsLabel{
+    background-color: #ec7d32;
+}
+
+.strength{
+    top: 0%;
+    left: 0%;
+    background-color: #284d85e0;
+}
+
+.weakness{
+    top: 0%;
+    left: 50%;
+    background-color: #a81c1cc7;
+}
+
+.opportunities{
+    top: 50%;
+    left: 0%;
+    background-color: #0fa81c83;
+}
+
+.threats{
+    top: 50%;
+    left: 50%;
+    background-color: #ec7c32d3;
+}
+
+.projectInfo{
+    position: inherit;
+    top: 2vh;
+    margin-left: 2vw;
+    width: 27%;
+    height: fit-content;
+}
+
+.projectInfo label h1{
+    padding: 0.2em;
+    color: #4d688d;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
+
+.projectInfo textarea{
+    max-height: 10vh;
+}
+
+#search{
+    color: #a4a4b1;
+    font-size: large;
+}
+
+.projectInfo textarea
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    outline: none;
+    border: none;
+    color: #636366;
+    padding: 9px;
+    overflow: auto;
+}
+
+.projectInfo textarea:hover
+{
+    border: 1px solid #a9dcf0;
+}
+
+.projectInfo button{
+    background-color: #1880b1f3;
+    color: white;
+    font-size: large;
+    padding: 2%;
+    border-radius: 12px;
+    border-color: skyblue;
+    width: 100%;
+}
